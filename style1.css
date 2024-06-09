@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden ;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+#page1{
+    background-color: rgb(17,18 ,17 );
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+#page1>h1{
+    font-size: 40px;
+    font-family: monospace;
+}
+#CAN{
+    display: flex;
+    gap: 60vh;
+    font-size: 25px;
+    font-family: monospace;
+}
+#g1{
+    display: flex;
+    font-size: 15px;
+    width: 15px;
+    font-family: monospace;
+    text-align: justify;
+    padding-top:20px ;
+    gap: 50px;
+}
+#g1>button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px 25px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+    border: 2px white solid;
+}
+#can1{
+    height: 50%;
+    width: 40%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+#can1>h1{
+    font-size: 70px;
+    font-family: monospace;
+}
+#can1>h1>samp{
+    color: rgb(238, 19, 19);
+    font-weight: 900;
+    font-size: 75px;
+}
+#can1>p{
+    padding: 20px 0px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#can1>button{
+    height: 60px;
+    width: 200px;
+    border-radius: 25px 25px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 2px white solid;
+}
+#page2{
+    height: 30%;
+    width: 100%;
+    background-color: rgba(7, 239, 239, 0.095);
+    position: absolute;
+    top: 70%;
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+#page2>h1{
+    font-size: 40px;
+    position: relative;
+    padding: 20px 10px ;
+    left: 20%;
+    top: 10%;
+}
+#page2>h2{
+    font-size: 40px;
+    position: relative;
+    padding: 20px 30px;
+    left: 5%;
+    top: 10%;
+}
+#button{
+    height:60px;
+    width: 200px;
+    border-radius: 25px 25px ;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    border: 20px white solid;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#page2>img{
+    height: 500px;
+    position: relative;
+    top: -110%;
+    left: 15%;
+}
+#main>img{
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    height: 500px;
+}
